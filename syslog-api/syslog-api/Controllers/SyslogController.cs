@@ -47,7 +47,7 @@ namespace syslog_api.Controllers
 
                     var properties = new ClientRequestProperties()
                     {
-                        ClientRequestId = "Test V2;" + Guid.NewGuid().ToString()
+                        ClientRequestId = "Test V3;" + Guid.NewGuid().ToString()
                     };
 
                     var queryTask = queryProvider.ExecuteQuery(database, query, properties);
